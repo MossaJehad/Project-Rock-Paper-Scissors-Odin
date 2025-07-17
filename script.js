@@ -17,7 +17,7 @@ function startGame(choose)
 			|| array[getComputerChoice] == 'Rock' && getHumanChoice == 'Scissor')
 		p.textContent = "You lose :(";
 	else
-		p.textContent = "draw";
+		p.textContent = "Draw";
 	form.append(p);
 }
 
